@@ -1,0 +1,36 @@
+.row_wrapper {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    z-index: 3 !important;
+    /* z-index: 3; */
+    margin-left: 5vw;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+}
+
+.row_title {
+    font-size: 1.4vw;
+    letter-spacing: 0.7px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    z-index: 1 !important;
+}
+
+/* .row_cards_holder{
+    overflow-x: scroll;
+} */
+
+.row_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 130px;
+    color: rgb(255, 255, 255);
+    overflow-x: scroll;
+    /* overflow-y: scroll; */
+}
+
+.row_cards::-webkit-scrollbar {
+    display: none;
+}
